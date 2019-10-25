@@ -1,0 +1,29 @@
+.title-head{
+    text-align: center;
+    background: #00BFFF!important;
+    margin: 0;
+    height: 56px;
+    color: #ffffff;
+    
+}
+.t-label{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+.btn-cal{
+    width: 100px;
+    margin: 15px auto 15px auto;
+    display: block;
+}
+ion-icon { zoom: 1.5 }
+.result-imc{
+    border: solid 2px #00BFFF;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 200px;
+    padding: 10px;
+    text-align: center;
+}
