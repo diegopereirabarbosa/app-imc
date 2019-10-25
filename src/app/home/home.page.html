@@ -7,7 +7,6 @@
 </ion-header>
 
 <ion-content>
- 
     <ion-item>
       <ion-label class="t-label">Preencha as informações para calcular.</ion-label>
     </ion-item>
@@ -23,5 +22,42 @@
     <ion-text color="secondary">
         <h1 class="result-imc"> {{imcResult}}</h1>
     </ion-text>
-      
+    
+    <h3 class="head-table"> Tabela de IMC.</h3>
+  <ion-grid padding>
+    <ion-row>
+      <ion-col><b>Resultado</b></ion-col>
+      <ion-col><b>Situação</b></ion-col>
+    </ion-row>
+    <div class="font-size: 14px;">
+      <ion-row>
+        <ion-col> Abaixo de 17 </ion-col>
+        <ion-col> Muito abaixo do peso </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col> Entre 17 e 18,49 </ion-col>
+        <ion-col> Abaixo do peso </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col> Entre 18,5 e 24,99 </ion-col>
+        <ion-col> Peso normal </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col> Entre 25 e 29,99 </ion-col>
+        <ion-col> Acima do peso </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col> Entre 30 e 34,99 </ion-col>
+        <ion-col> Obesidade I</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col> Entre 35 e 39,99 </ion-col>
+        <ion-col> Obesidade II (severa)</ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col> Acima de 40 </ion-col>
+        <ion-col> Obesidade III (mórbida)</ion-col>
+      </ion-row>
+    </div>
+  </ion-grid>
 </ion-content>
