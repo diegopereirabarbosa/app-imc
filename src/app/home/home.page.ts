@@ -25,6 +25,7 @@ export class HomePage {
       });
       alert.present();
     }else{
+      
      this.imc =  this.peso/(this.altura * this.altura);
      this.imcResult = 'Seu imc é: ' + this.imc.toFixed(2);
     }
